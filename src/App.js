@@ -10,8 +10,8 @@ import './App.css';
 
 const App = () => {
 
-const API_ID=process.env.REACT_API_APP_ID;
-const API_KEY=process.env.REACT_API_APP_KEY;
+const API_ID=process.env.REACT_APP_API_ID;
+const API_KEY=process.env.REACT_APP_API_KEY;
 
 
 const [search, setSearch] = useState('');
